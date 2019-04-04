@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/github/learnDataStructure/HelloWorld.cpp" "E:/github/learnDataStructure/cmake-build-debug/CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj"
+  "C:/Users/apric/Documents/GitHub/learnDataStructure/SqStack.cpp" "C:/Users/apric/Documents/GitHub/learnDataStructure/cmake-build-debug/CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

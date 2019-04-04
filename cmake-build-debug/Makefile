@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\github\learnDataStructure
+CMAKE_SOURCE_DIR = C:\Users\apric\Documents\GitHub\learnDataStructure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\github\learnDataStructure\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\github\learnDataStructure\cmake-build-debug\CMakeFiles E:\github\learnDataStructure\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug\CMakeFiles C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\github\learnDataStructure\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ learnDataStructure/fast:
 	$(MAKE) -f CMakeFiles\learnDataStructure.dir\build.make CMakeFiles/learnDataStructure.dir/build
 .PHONY : learnDataStructure/fast
 
-HelloWorld.obj: HelloWorld.cpp.obj
+SqStack.obj: SqStack.cpp.obj
 
-.PHONY : HelloWorld.obj
+.PHONY : SqStack.obj
 
 # target to build an object file
-HelloWorld.cpp.obj:
-	$(MAKE) -f CMakeFiles\learnDataStructure.dir\build.make CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj
-.PHONY : HelloWorld.cpp.obj
+SqStack.cpp.obj:
+	$(MAKE) -f CMakeFiles\learnDataStructure.dir\build.make CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj
+.PHONY : SqStack.cpp.obj
 
-HelloWorld.i: HelloWorld.cpp.i
+SqStack.i: SqStack.cpp.i
 
-.PHONY : HelloWorld.i
+.PHONY : SqStack.i
 
 # target to preprocess a source file
-HelloWorld.cpp.i:
-	$(MAKE) -f CMakeFiles\learnDataStructure.dir\build.make CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.i
-.PHONY : HelloWorld.cpp.i
+SqStack.cpp.i:
+	$(MAKE) -f CMakeFiles\learnDataStructure.dir\build.make CMakeFiles/learnDataStructure.dir/SqStack.cpp.i
+.PHONY : SqStack.cpp.i
 
-HelloWorld.s: HelloWorld.cpp.s
+SqStack.s: SqStack.cpp.s
 
-.PHONY : HelloWorld.s
+.PHONY : SqStack.s
 
 # target to generate assembly for a file
-HelloWorld.cpp.s:
-	$(MAKE) -f CMakeFiles\learnDataStructure.dir\build.make CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.s
-.PHONY : HelloWorld.cpp.s
+SqStack.cpp.s:
+	$(MAKE) -f CMakeFiles\learnDataStructure.dir\build.make CMakeFiles/learnDataStructure.dir/SqStack.cpp.s
+.PHONY : SqStack.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... learnDataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... HelloWorld.obj
-	@echo ... HelloWorld.i
-	@echo ... HelloWorld.s
+	@echo ... SqStack.obj
+	@echo ... SqStack.i
+	@echo ... SqStack.s
 .PHONY : help
 
 

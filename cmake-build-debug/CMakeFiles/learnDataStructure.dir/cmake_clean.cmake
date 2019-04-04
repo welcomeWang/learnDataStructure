@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj"
+  "CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj"
   "learnDataStructure.pdb"
   "learnDataStructure.exe"
   "learnDataStructure.exe.manifest"

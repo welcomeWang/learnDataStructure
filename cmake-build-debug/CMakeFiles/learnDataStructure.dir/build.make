@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\github\learnDataStructure
+CMAKE_SOURCE_DIR = C:\Users\apric\Documents\GitHub\learnDataStructure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\github\learnDataStructure\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/learnDataStructure.dir/depend.make
@@ -56,33 +56,33 @@ include CMakeFiles/learnDataStructure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learnDataStructure.dir/flags.make
 
-CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj: CMakeFiles/learnDataStructure.dir/flags.make
-CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj: CMakeFiles/learnDataStructure.dir/includes_CXX.rsp
-CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj: ../HelloWorld.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\github\learnDataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj"
-	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\learnDataStructure.dir\HelloWorld.cpp.obj -c E:\github\learnDataStructure\HelloWorld.cpp
+CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj: CMakeFiles/learnDataStructure.dir/flags.make
+CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj: CMakeFiles/learnDataStructure.dir/includes_CXX.rsp
+CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj: ../SqStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\learnDataStructure.dir\SqStack.cpp.obj -c C:\Users\apric\Documents\GitHub\learnDataStructure\SqStack.cpp
 
-CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\github\learnDataStructure\HelloWorld.cpp > CMakeFiles\learnDataStructure.dir\HelloWorld.cpp.i
+CMakeFiles/learnDataStructure.dir/SqStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnDataStructure.dir/SqStack.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\apric\Documents\GitHub\learnDataStructure\SqStack.cpp > CMakeFiles\learnDataStructure.dir\SqStack.cpp.i
 
-CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\github\learnDataStructure\HelloWorld.cpp -o CMakeFiles\learnDataStructure.dir\HelloWorld.cpp.s
+CMakeFiles/learnDataStructure.dir/SqStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnDataStructure.dir/SqStack.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\apric\Documents\GitHub\learnDataStructure\SqStack.cpp -o CMakeFiles\learnDataStructure.dir\SqStack.cpp.s
 
 # Object files for target learnDataStructure
 learnDataStructure_OBJECTS = \
-"CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj"
+"CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj"
 
 # External object files for target learnDataStructure
 learnDataStructure_EXTERNAL_OBJECTS =
 
-learnDataStructure.exe: CMakeFiles/learnDataStructure.dir/HelloWorld.cpp.obj
+learnDataStructure.exe: CMakeFiles/learnDataStructure.dir/SqStack.cpp.obj
 learnDataStructure.exe: CMakeFiles/learnDataStructure.dir/build.make
 learnDataStructure.exe: CMakeFiles/learnDataStructure.dir/linklibs.rsp
 learnDataStructure.exe: CMakeFiles/learnDataStructure.dir/objects1.rsp
 learnDataStructure.exe: CMakeFiles/learnDataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\github\learnDataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learnDataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learnDataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\learnDataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -95,6 +95,6 @@ CMakeFiles/learnDataStructure.dir/clean:
 .PHONY : CMakeFiles/learnDataStructure.dir/clean
 
 CMakeFiles/learnDataStructure.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\github\learnDataStructure E:\github\learnDataStructure E:\github\learnDataStructure\cmake-build-debug E:\github\learnDataStructure\cmake-build-debug E:\github\learnDataStructure\cmake-build-debug\CMakeFiles\learnDataStructure.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\apric\Documents\GitHub\learnDataStructure C:\Users\apric\Documents\GitHub\learnDataStructure C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug C:\Users\apric\Documents\GitHub\learnDataStructure\cmake-build-debug\CMakeFiles\learnDataStructure.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/learnDataStructure.dir/depend
 

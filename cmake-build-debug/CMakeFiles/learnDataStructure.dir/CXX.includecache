@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/github/learnDataStructure/HelloWorld.cpp
+C:/Users/apric/Documents/GitHub/learnDataStructure/SqStack.cpp
+stdio.h
+C:/Users/apric/Documents/GitHub/learnDataStructure/stdio.h
+stdlib.h
+C:/Users/apric/Documents/GitHub/learnDataStructure/stdlib.h
+SqStack.h
+C:/Users/apric/Documents/GitHub/learnDataStructure/SqStack.h
 iostream
--
+C:/Users/apric/Documents/GitHub/learnDataStructure/iostream
+iomanip
+C:/Users/apric/Documents/GitHub/learnDataStructure/iomanip
+
+C:/Users/apric/Documents/GitHub/learnDataStructure/SqStack.h
 
